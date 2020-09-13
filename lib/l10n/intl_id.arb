@@ -1,0 +1,12 @@
+{
+    "@@locale": "en",
+    "title": "Indonesian - Crowdin",
+    "@title": {
+        "description": "The title of the app"
+    },
+    "description": "Indonesian - Bla bla bla...",
+    "@description": {
+        "description": "Tooltip for the FAB"
+    },
+    "fabTooltip": "Indonesian - Increment"
+}

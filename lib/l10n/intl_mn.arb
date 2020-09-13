@@ -1,0 +1,12 @@
+{
+    "@@locale": "en",
+    "title": "Crowdin",
+    "@title": {
+        "description": "The title of the app"
+    },
+    "description": "Bla bla bla bla bla...",
+    "@description": {
+        "description": "Tooltip for the FAB"
+    },
+    "fabTooltip": "Increment"
+}
