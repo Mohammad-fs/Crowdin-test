@@ -82,6 +82,26 @@ class Localization {
       args: [],
     );
   }
+
+  /// `Increment4`
+  String get fabTooltip4 {
+    return Intl.message(
+      'Increment4',
+      name: 'fabTooltip4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Increment5`
+  String get fabTooltip5 {
+    return Intl.message(
+      'Increment5',
+      name: 'fabTooltip5',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<Localization> {

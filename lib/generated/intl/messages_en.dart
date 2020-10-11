@@ -25,6 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "fabTooltip" : MessageLookupByLibrary.simpleMessage("Increment"),
     "fabTooltip2" : MessageLookupByLibrary.simpleMessage("Increment2"),
     "fabTooltip3" : MessageLookupByLibrary.simpleMessage("Increment3"),
+    "fabTooltip4" : MessageLookupByLibrary.simpleMessage("Increment4"),
+    "fabTooltip5" : MessageLookupByLibrary.simpleMessage("Increment5"),
     "title" : MessageLookupByLibrary.simpleMessage("Crowdin")
   };
 }
