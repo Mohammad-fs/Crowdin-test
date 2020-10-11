@@ -48,7 +48,7 @@ class Localization {
     return Intl.message(
       'Bla bla bla bla bla...',
       name: 'description',
-      desc: 'Tooltip for the FAB',
+      desc: 'Description of the app',
       args: [],
     );
   }
@@ -58,6 +58,26 @@ class Localization {
     return Intl.message(
       'Increment',
       name: 'fabTooltip',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Increment2`
+  String get fabTooltip2 {
+    return Intl.message(
+      'Increment2',
+      name: 'fabTooltip2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Increment3`
+  String get fabTooltip3 {
+    return Intl.message(
+      'Increment3',
+      name: 'fabTooltip3',
       desc: '',
       args: [],
     );

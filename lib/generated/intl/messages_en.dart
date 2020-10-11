@@ -23,6 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static _notInlinedMessages(_) => <String, Function> {
     "description" : MessageLookupByLibrary.simpleMessage("Bla bla bla bla bla..."),
     "fabTooltip" : MessageLookupByLibrary.simpleMessage("Increment"),
+    "fabTooltip2" : MessageLookupByLibrary.simpleMessage("Increment2"),
+    "fabTooltip3" : MessageLookupByLibrary.simpleMessage("Increment3"),
     "title" : MessageLookupByLibrary.simpleMessage("Crowdin")
   };
 }
