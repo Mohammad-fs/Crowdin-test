@@ -9,7 +9,6 @@
     "description": "Description of the app"
   },
   "fabTooltip": "Increment",
-  "@description": {
-    "description": "Tooltip for the FAB"
-  }
+  "fabTooltip2": "Increment2",
+  "fabTooltip3": "Increment3"
 }
