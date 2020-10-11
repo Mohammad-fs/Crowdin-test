@@ -1,5 +1,4 @@
 {
-    "@@locale": "en",
     "title": "Crowdin",
     "@title": {
         "description": "The title of the app"

@@ -8,8 +8,12 @@ import 'intl/messages_all.dart';
 // Made by Localizely
 // **************************************************************************
 
+// ignore_for_file: non_constant_identifier_names, lines_longer_than_80_chars
+
 class Localization {
   Localization();
+  
+  static Localization current;
   
   static const AppLocalizationDelegate delegate =
     AppLocalizationDelegate();
@@ -19,7 +23,9 @@ class Localization {
     final localeName = Intl.canonicalizedLocale(name); 
     return initializeMessages(localeName).then((_) {
       Intl.defaultLocale = localeName;
-      return Localization();
+      Localization.current = Localization();
+      
+      return Localization.current;
     });
   } 
 
@@ -27,6 +33,7 @@ class Localization {
     return Localizations.of<Localization>(context, Localization);
   }
 
+  /// `Crowdin`
   String get title {
     return Intl.message(
       'Crowdin',
@@ -36,6 +43,7 @@ class Localization {
     );
   }
 
+  /// `Bla bla bla bla bla...`
   String get description {
     return Intl.message(
       'Bla bla bla bla bla...',
@@ -45,6 +53,7 @@ class Localization {
     );
   }
 
+  /// `Increment`
   String get fabTooltip {
     return Intl.message(
       'Increment',
@@ -61,6 +70,9 @@ class AppLocalizationDelegate extends LocalizationsDelegate<Localization> {
   List<Locale> get supportedLocales {
     return const <Locale>[
       Locale.fromSubtags(languageCode: 'en'),
+      Locale.fromSubtags(languageCode: 'es'),
+      Locale.fromSubtags(languageCode: 'id'),
+      Locale.fromSubtags(languageCode: 'mn'),
     ];
   }
 
