@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
+import 'generated/l10n.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -9,12 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // localizationsDelegates: [
-      //   GlobalMaterialLocalizations.delegate,
-      //   GlobalWidgetsLocalizations.delegate,
-      //   Localization.delegate
-      // ],
-      // supportedLocales: Localization.delegate.supportedLocales,
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        Localization.delegate
+      ],
+      supportedLocales: Localization.delegate.supportedLocales,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -46,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Localization.of(context).title'),
+        title: Text(Localization.of(context).title),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -55,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               IconButton(
-                tooltip: 'Change Language!',
+                tooltip: Localization.of(context).language_tooltip,
                 color: Colors.black45,
                 icon: Icon(Icons.language),
                 onPressed: () => _changeLanguage(),
@@ -64,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           Spacer(),
           Text(
-            'Localization.of(context).description',
+            Localization.of(context).description,
           ),
           Text(
             '$_counter',
@@ -75,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Localization.of(context).fabTooltip',
+        tooltip: Localization.of(context).fab_tooltip,
         child: Icon(Icons.add),
       ),
     );

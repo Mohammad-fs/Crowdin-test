@@ -26,8 +26,8 @@ flutter:
 
   uses-material-design: true
 
-## Localization configuration
-#flutter_intl:
-#  enabled: true
-#  class_name: Localization
-#  main_locale: en
+# Localization configuration
+flutter_intl:
+  enabled: true
+  class_name: Localization
+  main_locale: en
