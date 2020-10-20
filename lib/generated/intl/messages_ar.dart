@@ -25,6 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "fab_tooltip" : MessageLookupByLibrary.simpleMessage("تلمیح"),
     "language_tooltip" : MessageLookupByLibrary.simpleMessage("تلمیح الزبان"),
     "test_1" : MessageLookupByLibrary.simpleMessage("اختبار"),
+    "test_2" : MessageLookupByLibrary.simpleMessage("اختیار اول"),
+    "test_3" : MessageLookupByLibrary.simpleMessage("اختیار الثانی"),
     "title" : MessageLookupByLibrary.simpleMessage("العنوان")
   };
 }
