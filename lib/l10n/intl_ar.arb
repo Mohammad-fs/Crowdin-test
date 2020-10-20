@@ -1,6 +1,8 @@
 {
-  "title": "english title",
-  "description": "english description",
-  "fab_tooltip": "english fab_tooltip",
-  "language_tooltip": "english language_tooltip"
+    "@@locale": "en",
+    "title": "العنوان",
+    "description": "وصف",
+    "fab_tooltip": "تلمیح",
+    "language_tooltip": "تلمیح الزبان",
+    "test_1": "اختبار"
 }
