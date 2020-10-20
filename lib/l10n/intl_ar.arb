@@ -4,5 +4,7 @@
     "description": "وصف",
     "fab_tooltip": "تلمیح",
     "language_tooltip": "تلمیح الزبان",
-    "test_1": "اختبار"
+    "test_1": "اختبار",
+    "test_2": "اختیار اول",
+    "test_3": "اختیار الثانی"
 }
