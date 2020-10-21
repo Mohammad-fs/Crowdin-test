@@ -122,6 +122,26 @@ class Localization {
       args: [],
     );
   }
+
+  /// `english test-6`
+  String get test_6 {
+    return Intl.message(
+      'english test-6',
+      name: 'test_6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `english test-7`
+  String get test_7 {
+    return Intl.message(
+      'english test-7',
+      name: 'test_7',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<Localization> {

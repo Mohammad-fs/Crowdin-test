@@ -1,5 +1,4 @@
 {
-  "@@locale": "en",
   "title": "english title",
   "description": "english description",
   "fab_tooltip": "english fab_tooltip",
@@ -8,5 +7,7 @@
   "test_2": "english test-2",
   "test_3": "english test-3",
   "test_4": "english test-4",
-  "test_5": "english test-5"
+  "test_5": "english test-5",
+  "test_6": "english test-6",
+  "test_7": "english test-7"
 }

@@ -29,6 +29,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "test_3" : MessageLookupByLibrary.simpleMessage("english test-3"),
     "test_4" : MessageLookupByLibrary.simpleMessage("english test-4"),
     "test_5" : MessageLookupByLibrary.simpleMessage("english test-5"),
+    "test_6" : MessageLookupByLibrary.simpleMessage("english test-6"),
+    "test_7" : MessageLookupByLibrary.simpleMessage("english test-7"),
     "title" : MessageLookupByLibrary.simpleMessage("english title")
   };
 }
