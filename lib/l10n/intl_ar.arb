@@ -1,10 +1,13 @@
 {
-    "@@locale": "ar",
     "title": "العنوان",
     "description": "وصف",
     "fab_tooltip": "تلمیح",
     "language_tooltip": "تلمیح الزبان",
     "test_1": "اختبار",
     "test_2": "اختیار اول",
-    "test_3": "اختیار الثانی"
+    "test_3": "اختیار الثانی",
+    "test_4": "english test-4",
+    "test_5": "اختیار الثامع",
+    "test_6": "اختیار الثالث",
+    "test_7": "english test-7"
 }
